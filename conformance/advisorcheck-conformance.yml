@@ -1,0 +1,57 @@
+generated: '2026-09-09'
+method: searched
+source: https://help.advisorcheck.com/en/articles/42-how-do-you-keep-user-data-secure
+name: AdvisorCheck conformance and compliance claims
+note: >-
+  AdvisorCheck publishes no machine-readable contract, so nothing here is derived from a spec —
+  every entry is a claim the company makes in its own public help center, recorded with the URL
+  that states it. Technical API conformance (OAuth 2.0, OIDC, RFC 9457, JSON:API, pagination,
+  idempotency) is NOT assessed and is not recorded as false, because there is no published contract
+  to assess it against. NO domain-standard conformance entry is recorded: AdvisorCheck CONSUMES the
+  regulatory disclosure regimes below as data sources, it does not implement a machine-readable
+  domain standard (there is no SCIM URN, OData $metadata, FIX/ISO 20022 message type, or equivalent
+  in any published artifact), and the 0.12.0 domain_standard_conformance check reads the contract,
+  not a prose claim.
+conformance:
+- id: ccpa
+  name: California Consumer Privacy Act
+  conforms: true
+  claim_type: self-asserted
+  evidence: https://help.advisorcheck.com/en/articles/42-how-do-you-keep-user-data-secure
+  note: >-
+    "in compliance with applicable data protection laws, including the California Consumer Privacy
+    Act (CCPA)". A stated compliance posture, not an audited certification.
+- id: sec-regulation-s-p
+  name: SEC Regulation S-P (privacy of consumer financial information)
+  conforms: true
+  claim_type: self-asserted-alignment
+  evidence: https://help.advisorcheck.com/en/articles/42-how-do-you-keep-user-data-secure
+  note: >-
+    The company states it "align[s] our security practices with best practices outlined in SEC
+    Regulation S-P and industry cybersecurity guidelines". Alignment, explicitly not certification.
+- id: finra-rule-8312
+  name: FINRA Rule 8312 (BrokerCheck disclosure)
+  conforms: true
+  claim_type: data-source-basis
+  evidence: https://help.advisorcheck.com/en/articles/52-data-source-disclosure-for-ongoing-monitoring
+  note: >-
+    "The content within ongoing monitoring operates under FINRA Rule 8312". This is the legal basis
+    for republishing BrokerCheck data, i.e. a data-provenance disclosure, not an API conformance.
+- id: sec-iapd
+  name: SEC Investment Adviser Public Disclosure (IAPD)
+  conforms: true
+  claim_type: data-source-basis
+  evidence: https://help.advisorcheck.com/en/articles/51-data-source-disclosures-for-advisorcheck-monitoring-tools
+  note: >-
+    Monitoring tools operate under "SEC's public access and disclosure rules"; advisor data is
+    compiled from FINRA BrokerCheck and the SEC IAPD system.
+certifications: []
+certifications_note: >-
+  None published. AdvisorCheck's security page names 2FA, "industry-standard encryption", TLS/HTTPS,
+  and CDN/load-balancer DDoS mitigation, but does NOT claim SOC 2, ISO 27001, PCI DSS, HIPAA,
+  FedRAMP or GDPR. No trust center or certification portal was found on any host.
+evidence:
+- url: https://help.advisorcheck.com/en/articles/42-how-do-you-keep-user-data-secure
+  status: 200
+- url: https://help.advisorcheck.com/llms.txt
+  status: 200

@@ -1,0 +1,119 @@
+generated: '2026-09-09'
+method: probed
+source: >-
+  Direct HTTP probes of every host this record knows: the registrable domain and www
+  (Vercel), the API baseURL host api.advisorcheck.com (AWS API Gateway custom domain),
+  and the help/docs host help.advisorcheck.com (Gleap).
+name: AdvisorCheck well-known discovery documents
+note: >-
+  NO well-known document was served by any host. advisorcheck.com and www.advisorcheck.com
+  answer every path with HTTP 429 and the header `x-vercel-mitigated: challenge` — a Vercel
+  Security Checkpoint interstitial titled "Vercel Security Checkpoint", not a real 429 and not a
+  document; api.advisorcheck.com answers every path with the AWS API Gateway 403
+  {"message":"Missing Authentication Token"}; help.advisorcheck.com returns a genuine 404 HTML
+  page for every /.well-known/* path. No `WellKnown` or `SecurityTxt` pointer is wired into
+  apis.yml, because nothing was served — this file records a measured absence, not a presence.
+  The one machine-readable document found anywhere on the estate is help.advisorcheck.com/llms.txt
+  (HTTP 200, text/plain), captured separately at llms/advisorcheck-llms.txt.
+hosts:
+- host: advisorcheck.com
+  note: Vercel-hosted marketing/app site; all paths intercepted by a Vercel bot challenge.
+  documents:
+  - path: /.well-known/security.txt
+    status: 429
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 429
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 429
+    file: null
+  - path: /.well-known/api-catalog
+    status: 429
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 429
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 429
+    file: null
+  - path: /.well-known/agent.json
+    status: 429
+    file: null
+- host: www.advisorcheck.com
+  note: 'Same Vercel origin as the apex; x-vercel-mitigated: challenge on every request.'
+  documents:
+  - path: /.well-known/security.txt
+    status: 429
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 429
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 429
+    file: null
+  - path: /.well-known/api-catalog
+    status: 429
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 429
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 429
+    file: null
+  - path: /.well-known/agent.json
+    status: 429
+    file: null
+- host: api.advisorcheck.com
+  note: >-
+    AWS API Gateway custom domain (CNAME d-sieexn6r7a.execute-api.us-east-1.amazonaws.com).
+    Unmatched routes return the API Gateway 403; /robots.txt is the only 200 (User-agent: * /
+    Disallow: /fa/).
+  documents:
+  - path: /.well-known/security.txt
+    status: 403
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 403
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 403
+    file: null
+  - path: /.well-known/api-catalog
+    status: 403
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 403
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 403
+    file: null
+  - path: /.well-known/agent.json
+    status: 403
+    file: null
+- host: help.advisorcheck.com
+  note: >-
+    Gleap-hosted help center (CNAME customers.gleap.help). Reachable and crawlable; serves a real
+    llms.txt and sitemap.xml, but no /.well-known/* documents.
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+  - path: /.well-known/agent.json
+    status: 404
+    file: null

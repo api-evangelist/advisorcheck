@@ -64,5 +64,8 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-AdvisorCheck is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://www.nasdaqprivatemarket.com/
+AdvisorCheck is a consumer-first platform for researching, comparing and continuously monitoring US financial advisors and the firms they work for. It compiles verified public regulatory data — FINRA BrokerCheck, the SEC's Investment Adviser Public Disclosure (IAPD) system, court records and six industry certification bodies — into profiles covering roughly 380,000 investment adviser representatives and 620,000 registered representatives. A free tier covers search and basic advisor monitoring; the paid AdvisorCheck Premium membership adds Advanced Monitoring with firm-stability insights (AUM changes, advisor headcount and retention, client acquisition trends, leadership and ownership changes, new firm disclosures). AdvisorCheck was founded in 2019, is headquartered in Englewood Cliffs, New Jersey with an office in Los Angeles, and raised a $1.8M seed round in June 2023. The company operates an application API at api.advisorcheck.com but publishes no public developer program, API reference or machine-readable contract.
+
+- Website: https://www.advisorcheck.com/
+- Help center: https://help.advisorcheck.com/
+- Application API host (no published contract): https://api.advisorcheck.com

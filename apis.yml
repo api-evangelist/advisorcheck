@@ -1,23 +1,107 @@
 aid: advisorcheck
 name: AdvisorCheck
-description: 'AdvisorCheck is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: AdvisorCheck is a consumer-first platform for researching, comparing and continuously monitoring
+  US financial advisors and the firms they work for. It compiles verified public regulatory data — FINRA
+  BrokerCheck, the SEC's Investment Adviser Public Disclosure (IAPD) system, court records and six industry
+  certification bodies — into profiles covering roughly 380,000 investment adviser representatives and
+  620,000 registered representatives. A free tier covers search and basic advisor monitoring; the paid
+  AdvisorCheck Premium membership adds Advanced Monitoring with firm-stability insights (AUM changes,
+  advisor headcount and retention, client acquisition trends, leadership and ownership changes, new firm
+  disclosures). AdvisorCheck was founded in 2019, is headquartered in Englewood Cliffs, New Jersey with
+  an office in Los Angeles, and raised a $1.8M seed round in June 2023. The company operates an application
+  API at api.advisorcheck.com but publishes no public developer program, API reference or machine-readable
+  contract.
 url: https://raw.githubusercontent.com/api-evangelist/advisorcheck/refs/heads/main/apis.yml
+image: https://staticfiles.gleap.io/ghelpcenter_logos/jdvki1Q6KfvVYn6WJ5IbzFkAMI1HDBnm3wWzcecsDmKnxPzAOwQgpAeq64xEys7QLTIbrs9OKCX.png
 x-type: company
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
 specificationVersion: '0.20'
 created: '2026-09-09'
 modified: '2026-09-09'
 tags:
 - Company
-apis: []
+- Financial Services
+- Fintech
+- Regulatory Data
+- Background Checks
+- Investor Protection
+- Financial Advisors
+- Wealth Management
+- Consumer Finance
+- Compliance
+apis:
+- aid: advisorcheck:advisorcheck-platform-api
+  name: AdvisorCheck Platform API
+  description: 'The first-party HTTP API behind the AdvisorCheck consumer web application, served from
+    an AWS API Gateway custom domain at api.advisorcheck.com. It is an internal application backend, not
+    a published developer product: every route answers HTTP 403 "Missing Authentication Token" without
+    an app-issued credential, /ping returns 200 "healthy", and the /fa/* prefix proxies to an upstream
+    fa-service at /v1/fa-service/*. AdvisorCheck publishes no OpenAPI, GraphQL SDL, Postman collection,
+    API reference or developer portal for it — see x-coverage.'
+  humanURL: https://www.advisorcheck.com/
+  baseURL: https://api.advisorcheck.com
+  position: Producing
+  tags:
+  - Financial Advisors
+  - Regulatory Data
+  x-access: private-application-backend
+  properties:
+  - type: Website
+    url: https://www.advisorcheck.com/
+  image: https://staticfiles.gleap.io/ghelpcenter_logos/jdvki1Q6KfvVYn6WJ5IbzFkAMI1HDBnm3wWzcecsDmKnxPzAOwQgpAeq64xEys7QLTIbrs9OKCX.png
+common:
+- type: DomainSecurity
+  url: security/advisorcheck-domain-security.yml
+- type: Website
+  url: https://www.advisorcheck.com/
+- type: About
+  url: https://www.advisorcheck.com/about-us
+- type: Support
+  url: https://help.advisorcheck.com/
+- type: HelpCenter
+  url: https://help.advisorcheck.com/
+- type: Blog
+  url: https://www.advisorcheck.com/blog/what-does-a-financial-advisor-do
+- type: TermsOfService
+  url: https://www.advisorcheck.com/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.advisorcheck.com/privacy-policy
+- type: LLMsTxt
+  url: llms/advisorcheck-llms.txt
+- type: GettingStarted
+  url: https://help.advisorcheck.com/en/collections/7-getting-started-with-advisorchceck
+- type: Plans
+  url: plans/advisorcheck-plans-pricing.yml
+- type: RateLimits
+  url: rate-limits/advisorcheck-rate-limits.yml
+- type: Conformance
+  url: conformance/advisorcheck-conformance.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
-common:
-- type: Website
-  url: https://www.nasdaqprivatemarket.com/
+x-enrichment:
+  date: '2026-09-09'
+  status: minimal
+  artifacts_added: 6
+  pass: local-v3
+x-coverage:
+  state: none
+  reason: no-developer-program
+  detail: 'AdvisorCheck ships a consumer web product only: api.advisorcheck.com is an AWS API Gateway
+    custom domain serving the app''s own backend and answers 403 "Missing Authentication Token" on /openapi.json,
+    /swagger.json, /api-docs, /graphql and /mcp alike, while the company''s complete public help-center
+    index (help.advisorcheck.com/llms.txt, HTTP 200, 95 lines, 9 collections) contains no developer, API,
+    SDK or integration topic at all — and the marketing host is separately unreadable behind a Vercel
+    Security Checkpoint (x-vercel-mitigated: challenge) on every path.'
+  evidence:
+  - url: https://api.advisorcheck.com/openapi.json
+    status: 403
+  - url: https://api.advisorcheck.com/ping
+    status: 200
+  - url: https://help.advisorcheck.com/llms.txt
+    status: 200
+  - url: https://www.advisorcheck.com/
+    status: 429
+  checked: '2026-09-09'

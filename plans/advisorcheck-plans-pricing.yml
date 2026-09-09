@@ -1,0 +1,62 @@
+generated: '2026-09-09'
+method: searched
+source: https://help.advisorcheck.com/en/articles/53-what-is-advisorcheck-premium
+name: AdvisorCheck plans and pricing
+currency: USD
+plan_count: 2
+note: >-
+  AdvisorCheck publishes a two-tier consumer subscription. Tier NAMES and their feature sets are
+  stated in the company's own help center and are recorded verbatim below. PRICES ARE NOT RECORDED
+  because they could not be read: the pricing page lives at www.advisorcheck.com and that host
+  answers every request with HTTP 429 behind a Vercel Security Checkpoint
+  (x-vercel-mitigated: challenge), so no price, billing period, or overage figure was observed.
+  Every price field below is null on purpose — checked, nothing observable — never guessed. These
+  are consumer subscriptions to the web product; there is no API plan, API pricing, or metered
+  developer tier, because AdvisorCheck publishes no developer API.
+plans:
+- name: AdvisorCheck (free)
+  price: null
+  currency: USD
+  billing_period: null
+  price_note: >-
+    Published as a free core service. "AdvisorCheck offers a free core service to all users";
+    press coverage of the launch states the initial product is offered free of charge with
+    additional features available via paid subscription.
+  source: https://help.advisorcheck.com/en/articles/32-is-there-a-financial-obligation-to-sign-up
+  included:
+  - Advisor search across US-registered financial advisors and firms
+  - Advisor profile access, including regulatory disclosure history
+  - Advisor Monitoring (Essentials) — alerts on firm/job changes, licensing and state registration
+    updates, contact information changes, and disclosure updates
+  limits: []
+- name: AdvisorCheck Premium
+  price: null
+  currency: USD
+  billing_period: null
+  price_note: >-
+    A paid subscription membership. Price not published anywhere machine-readable; the help center
+    directs users to "Visit our pricing page to sign up for AdvisorCheck Premium" on
+    www.advisorcheck.com, which is behind a Vercel bot challenge.
+  source: https://help.advisorcheck.com/en/articles/53-what-is-advisorcheck-premium
+  included:
+  - Everything in the free tier
+  - 'Advanced Monitoring: firm-stability insights on the firm an advisor works for'
+  - New firm disclosures
+  - Total assets under management (AUM) changes
+  - Advisor headcount and retention changes
+  - Client acquisition and retention trends
+  - Average account value changes
+  - Client-to-advisor ratio changes
+  - Leadership and ownership changes
+  limits: []
+api_plans: []
+api_plans_note: >-
+  None. AdvisorCheck sells a consumer subscription, not API access. No developer plan, key tier,
+  quota, or metered API pricing is published.
+evidence:
+- url: https://help.advisorcheck.com/en/articles/53-what-is-advisorcheck-premium
+  status: 200
+- url: https://help.advisorcheck.com/llms.txt
+  status: 200
+- url: https://www.advisorcheck.com/
+  status: 429

@@ -1,0 +1,95 @@
+# Help center
+
+> Find answers to your questions
+
+## About AdvisorCheck
+
+Learn why AdvisorCheck was created and how it's different from financial advisory and regulatory websites
+
+- [Why use AdvisorCheck?](https://help.advisorcheck.com/en/articles/31-why-use-advisorcheck): How AdvisorCheck helps consumers
+- [Who built AdvisorCheck?](https://help.advisorcheck.com/en/articles/37-who-built-advisorcheck): The history behind AdvisorCheck
+- [How is AdvisorCheck different from FINRA BrokerCheck and The SEC's IAPD websites?](https://help.advisorcheck.com/en/articles/21-how-is-advisorcheck-different-from-finra-brokercheck-and-the-sec-s-iapd-websites): AdvisorCheck's unique features that set it apart from government and regulatory websites
+- [Is AdvisorCheck a financial services provider?](https://help.advisorcheck.com/en/articles/20-is-advisorcheck-a-financial-services-provider): How AdvisorCheck distinguishes itself from others in the financial services industry
+- [Do you guarantee advisor performance?](https://help.advisorcheck.com/en/articles/1-do-you-guarantee-advisor-performance): What AdvisorCheck offers and does not offer
+- [Is AdvisorCheck a non-profit?](https://help.advisorcheck.com/en/articles/14-is-advisorcheck-a-non-profit): AdvisorCheck is a for-profit organization
+- [Do you rank financial advisors on AdvisorCheck?](https://help.advisorcheck.com/en/articles/30-do-you-rank-financial-advisors-on-advisorcheck): How AdvisorCheck elevates visibility for claimed advisors vs ranking them
+- [Do advisors on AdvisorCheck work for the company?](https://help.advisorcheck.com/en/articles/16-do-advisors-on-advisorcheck-work-for-the-company): Financial advisors listed on AdvisorCheck are independent and not employed by AdvisorCheck
+- [Do you work with consumers or financial advisors outside of the United States?](https://help.advisorcheck.com/en/articles/17-do-you-work-with-consumers-or-financial-advisors-outside-of-the-united-states): We do not specifically facilitate connections between consumers and advisors outside of the U.S.
+
+## Getting Started with AdvisorChceck
+
+Discover useful tips to help you find and evaluate financial advisors
+
+- [How to search for an advisor on AdvisorCheck](https://help.advisorcheck.com/en/articles/47-how-to-search-for-an-advisor-on-advisorcheck): Finding an advisor through our Advanced Search tool
+- [Making Sense of Financial Advisor Profiles – What You Need to Know](https://help.advisorcheck.com/en/articles/48-making-sense-of-financial-advisor-profiles-what-you-need-to-know): Understanding Key Information on Advisor Profiles
+- [How to evaluate and choose the right financial advisor](https://help.advisorcheck.com/en/articles/49-how-to-evaluate-and-choose-the-right-financial-advisor): Confidently compare and select the best advisor for you
+- [How do I contact, ask a question or request a meeting with an advisor on AdvisorCheck?](https://help.advisorcheck.com/en/articles/27-how-do-i-contact-ask-a-question-or-request-a-meeting-with-an-advisor-on-advisorcheck): Easy ways to contact financial advisors on AdvisorCheck
+- [Is there a financial obligation to sign up?](https://help.advisorcheck.com/en/articles/32-is-there-a-financial-obligation-to-sign-up): AdvisorCheck offers a free core service to all users
+- [Do I need to sign up to view an advisor's profile?](https://help.advisorcheck.com/en/articles/33-do-i-need-to-sign-up-to-view-an-advisor-s-profile): What features are available with and without a user sign up
+- [Will the advisor or firm know I reviewed their profile?](https://help.advisorcheck.com/en/articles/4-will-the-advisor-or-firm-know-i-reviewed-their-profile): Your AdvisorCheck activity remains private unless you initiate contact
+- [What is a disclosure event?](https://help.advisorcheck.com/en/articles/11-what-is-a-disclosure-event): What disclosures mean and why they are important to you when evaluating a financial advisor
+- [How do I find information on a specific advisor on AdvisorCheck?](https://help.advisorcheck.com/en/articles/45-how-do-i-find-information-on-a-specific-advisor-on-advisorcheck): How to search and find an advisor on AdvisorCheck
+
+## Data and Information
+
+Understand AdvisorCheck's data sources and how often data is updated
+
+- [How do you obtain your advisor information?](https://help.advisorcheck.com/en/articles/3-how-do-you-obtain-your-advisor-information): AdvisorCheck's multi-source approach for current and complete data
+- [How often is the advisor information updated?](https://help.advisorcheck.com/en/articles/23-how-often-is-the-advisor-information-updated): The frequency of advisor data updates on AdvisorCheck
+- [Why is there limited information about my advisor?](https://help.advisorcheck.com/en/articles/19-why-is-there-limited-information-about-my-advisor): Why some AdvisorCheck profiles have more information than others
+- [Why should I trust AdvisorCheck data?](https://help.advisorcheck.com/en/articles/25-why-should-i-trust-advisorcheck-data): Why you can rely on our data
+- [Data Source Disclosure for Ongoing Monitoring](https://help.advisorcheck.com/en/articles/52-data-source-disclosure-for-ongoing-monitoring): The content within ongoing monitoring operates under FINRA Rule 8312
+
+## Data Security and Privacy
+
+Learn how AdvisorCheck protects and secures your data
+
+- [Do you sell my information?](https://help.advisorcheck.com/en/articles/6-do-you-sell-my-information): How we protect your data on AdvisorCheck
+- [How do you keep user data secure?](https://help.advisorcheck.com/en/articles/42-how-do-you-keep-user-data-secure): Security measures in place for AdvisorCheck users
+- [What should I do if I suspect someone is impersonating an advisor?](https://help.advisorcheck.com/en/articles/29-what-should-i-do-if-i-suspect-someone-is-impersonating-an-advisor): Key steps to report potential fraud and how to avoid falling for scams
+- [Does AdvisorCheck collect any of my personal information?](https://help.advisorcheck.com/en/articles/43-does-advisorcheck-collect-any-of-my-personal-information): How AdvisorCheck handles your personal data
+- [What does AdvisorCheck do with my information?](https://help.advisorcheck.com/en/articles/46-what-does-advisorcheck-do-with-my-information): When We Do Share Your Information (and Why)
+
+## For Advisors
+
+Learn how to build your presence on AdvisorCheck and connect with consumers
+
+- [How do I update my information on my profile?](https://help.advisorcheck.com/en/articles/12-how-do-i-update-my-information-on-my-profile): Steps to update your advisor profile on AdvisorCheck
+- [Why is it important to claim and update my profile?](https://help.advisorcheck.com/en/articles/41-why-is-it-important-to-claim-and-update-my-profile): 5 reasons why an advisor should claim their profile
+
+## Managing Your Account
+
+Find ways to troubleshoot account issues
+
+- [Why can't I log in?](https://help.advisorcheck.com/en/articles/35-why-can-t-i-log-in): Tips to troubleshoot login issues
+- [Why didn't I receive a confirmation email?](https://help.advisorcheck.com/en/articles/34-why-didn-t-i-receive-a-confirmation-email): Reasons why you might have missed your confirmation email
+- [How do I contact AdvisorCheck Support?](https://help.advisorcheck.com/en/articles/36-how-do-i-contact-advisorcheck-support): Ways to reach AdvisorCheck Customer Support
+- [How can I reset my password?](https://help.advisorcheck.com/en/articles/18-how-can-i-reset-my-password): Easy steps to reset your password
+- [How do I delete my user account?](https://help.advisorcheck.com/en/articles/44-how-do-i-delete-my-user-account): Steps to delete your consumer account
+
+## Offerings and Tools
+
+Your guide to understanding our offerings and using our tools.
+
+- [What is Advisor Monitoring?](https://help.advisorcheck.com/en/articles/50-what-is-advisor-monitoring): Advisor Monitoring - a simple tool to keep you updated about important changes to the advisors you follow.
+- [What is AdvisorCheck Premium?](https://help.advisorcheck.com/en/articles/53-what-is-advisorcheck-premium): A subscription membership that unlocks more advanced tools, including Advanced Monitoring, a tool that provides critical insights into the advisors you follow and the firms they work for.
+- [Data Source Disclosures for AdvisorCheck Monitoring Tools](https://help.advisorcheck.com/en/articles/51-data-source-disclosures-for-advisorcheck-monitoring-tools): The content within our monitoring tools operates under FINRA Rule 8312 and SEC’s public access and disclosure rules.
+
+## Offerings and Tools > Advisor Monitoring Changes - What They Mean For You
+
+Guides to help you know what to do when changes occur
+
+- [What You Should Do When Your Advisor Changes Firms or Jobs](https://help.advisorcheck.com/en/articles/54-what-you-should-do-when-your-advisor-changes-firms-or-jobs): Your guide to understanding why firm moves matter and how to protect your finances
+- [What You Should Do If Your Advisor Has Licensing and State Registration Updates](https://help.advisorcheck.com/en/articles/55-what-you-should-do-if-your-advisor-has-licensing-and-state-registration-updates): Your guide to understanding why licensing and registration changes matter
+- [What You Should Do If Your Advisor Has Contact Information Changes](https://help.advisorcheck.com/en/articles/56-what-you-should-do-if-your-advisor-has-contact-information-changes): Your guide to why these changes matter and how to keep your accounts and communication secure.
+- [What You Should Do If Your Advisor Has a Disclosure Update](https://help.advisorcheck.com/en/articles/57-what-you-should-do-if-your-advisor-has-a-disclosure-update): Your guide to understanding and responding to regulatory disclosures
+
+## Offerings and Tools > Advanced Monitoring's Firm Stability Insights - What They Mean For You
+
+- [What You Should Do When You See New Firm Disclosures](https://help.advisorcheck.com/en/articles/58-what-you-should-do-when-you-see-new-firm-disclosures): Your guide on how to review new disclosures, what they may mean, and steps to take if you are concerned.
+- [What You Should Do When Total Assets Under Management Change](https://help.advisorcheck.com/en/articles/59-what-you-should-do-when-total-assets-under-management-change): Your guide to help you understand what AUM changes mean and how to respond.
+- [What You Should Do When Advisor Headcount or Retention Changes](https://help.advisorcheck.com/en/articles/60-what-you-should-do-when-advisor-headcount-or-retention-changes): Your guide on why advisor turnover matters and how to respond.
+- [What You Should Do When Client Acquisition or Retention Trends Change](https://help.advisorcheck.com/en/articles/61-what-you-should-do-when-client-acquisition-or-retention-trends-change): Your guide to help you interpret client acquisition trends and decide what to do next.
+- [What You Should Do When Average Account Values Change](https://help.advisorcheck.com/en/articles/62-what-you-should-do-when-average-account-values-change): Your guide to help you assess whether the firm still serves clients like you.
+- [What You Should Do When the Client‑to‑Advisor Ratio Changes](https://help.advisorcheck.com/en/articles/63-what-you-should-do-when-the-client‑to‑advisor-ratio-changes): Your guide on why this ratio matters for service and what to do when it changes.
+- [What You Should Do When Leadership or Ownership Changes](https://help.advisorcheck.com/en/articles/64-what-you-should-do-when-leadership-or-ownership-changes): Your guide to understanding executive level changes and how they may affect you.

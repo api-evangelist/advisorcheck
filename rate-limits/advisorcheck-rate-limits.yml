@@ -1,0 +1,27 @@
+generated: '2026-09-09'
+method: searched
+source: https://help.advisorcheck.com/llms.txt
+name: AdvisorCheck rate limits
+limit_count: 0
+note: >-
+  No published rate limits. AdvisorCheck has no developer program, API reference, or terms page
+  that states a request quota, window, or burst allowance, so there is nothing to record. The
+  company's only public machine-readable document (help.advisorcheck.com/llms.txt, HTTP 200) is a
+  help-center index with no developer or API section. The first-party application API at
+  api.advisorcheck.com returns HTTP 403 {"message":"Missing Authentication Token"} on every route
+  without an app-issued credential, so no rate-limit response headers could be observed on a live
+  unauthenticated request either. An honest zero, not an unchecked field.
+limits: []
+response_headers: []
+response_headers_note: >-
+  None observed. AWS API Gateway 403 responses from api.advisorcheck.com carry no X-RateLimit-*,
+  RateLimit-*, or Retry-After header. The Vercel challenge on www.advisorcheck.com returns 429 with
+  x-vercel-mitigated: challenge and no Retry-After.
+exhaustion_status: null
+evidence:
+- url: https://api.advisorcheck.com/ping
+  status: 200
+- url: https://api.advisorcheck.com/openapi.json
+  status: 403
+- url: https://help.advisorcheck.com/llms.txt
+  status: 200
