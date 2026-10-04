@@ -20,7 +20,7 @@ created: '2026-09-09'
 modified: '2026-09-09'
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Fintech
 - Regulatory Data
 - Background Checks
@@ -40,6 +40,7 @@ tags_raw:
 - Wealth Management
 - Consumer Finance
 - Compliance
+- Financial-Services
 apis:
 - aid: advisorcheck:advisorcheck-platform-api
   name: AdvisorCheck Platform API
