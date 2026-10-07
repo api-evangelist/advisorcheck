@@ -62,6 +62,8 @@ apis:
     url: https://www.advisorcheck.com/
   image: https://staticfiles.gleap.io/ghelpcenter_logos/jdvki1Q6KfvVYn6WJ5IbzFkAMI1HDBnm3wWzcecsDmKnxPzAOwQgpAeq64xEys7QLTIbrs9OKCX.png
 common:
+- type: Pricing
+  url: https://help.advisorcheck.com/en/articles/53-what-is-advisorcheck-premium
 - type: DomainSecurity
   url: security/advisorcheck-domain-security.yml
 - type: Website
